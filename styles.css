@@ -1,0 +1,148 @@
+body {
+  padding: 0px;
+  margin: 0; }
+h2 {
+  font-size: 2.5em; }
+h4 {
+  font-size: 1.75em; }
+h2, h4 {
+  color: #003253;
+  margin: 2px 0; }
+
+section {
+  float: none;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 30px;
+  width: 100%; 
+}
+#content {
+  width: 90%; 
+}
+.page_overlay {
+    width: 3000px;
+    height: 3000px;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    -webkit-opacity:0.9;
+    background-color: #fff;
+    z-index: 2;
+    position: fixed;
+    display: none;
+}
+/* Icon styles ......................................................... */
+.fa {
+  font-size: 2em;
+  margin: 0 5px;
+  cursor: pointer; 
+}
+.fa.fa-user {
+    font-size: 1em;
+    color: #ff9900;
+    margin-right: 4px;
+    margin-left: 0;
+}
+
+/*  Custom Row and Seciotn Styles ........................................... */
+@media screen and (min-width: 1100px) {
+  section {
+    max-width: 1100px;
+    margin: 0 auto; }
+
+  .row {
+    max-width: 960px;
+    margin: 0 auto; } 
+}
+/*  Modal Styles .............................................................. */
+.modal {
+    overflow: auto; 
+}
+
+.modal-body {
+    overflow: hidden; 
+}
+.fa-times {
+    font-size:1em;
+}
+#content .modal-header .close {
+  margin-top: -36px;
+  margin-right: -8px; }
+
+.modal-header .close {
+  margin-right: 6px;
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.6;
+  -khtml-opacity: 0.6;
+  -moz-opacity: 0.6; }
+  .modal-header .close:hover {
+    color: #fff;
+    opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8; }
+
+#collapse_modal .close {
+  margin: 2% 2% 0 0; }
+#collapse_modal .modal-body {
+  padding: 3%; }
+
+/* Customized styles for team_grid_with_info page. */
+#team_grid_with_info .row {
+    margin: 0 auto; 
+}
+#team_grid_with_info .hover-pic {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    border: 2px solid transparent; 
+}
+#team_grid_with_info .hover-pic img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    cursor: pointer; 
+}
+#team_grid_with_info .overlay {
+    height: 100%;
+    width: 100%;
+    padding: 3% 0 0 10%;
+    margin: 0;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer; 
+}
+#team_grid_with_info .overlay_active {
+  display: block !important;
+  opacity: 1 !important; }
+#team_grid_with_info .overlay.odd {
+  background-color: rgba(5, 197, 126, 0.6); }
+#team_grid_with_info .overlay.even {
+  background-color: rgba(18, 110, 192, 0.6); }
+#team_grid_with_info .overlay h4 {
+    color: #fff; 
+}
+
+.overlay p {
+    color: #fff; 
+}
+
+#team_grid_with_info .hidden-content {
+  display: none; }
+
+@media screen and (max-width: 400px) {
+  #content .overlay h2 {
+    margin: 5px 0 0 0; }
+  #content .overlay h4 {
+    margin: 5px 0 0 0;
+    font-size: 1.8rem; }
+  #content .overlay p {
+    font-size: 1.2rem; } 
+}
+
+
